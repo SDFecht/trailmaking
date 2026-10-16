@@ -1,0 +1,15 @@
+{
+    "name": "trail-making-standalone",
+    "private": true,
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Fecht Szilárd Dávid",
+        "email": "fecht@inf.elte.hu"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "node server.mjs",
+        "test": "node --test tests/*.test.mjs"
+    }
+}
