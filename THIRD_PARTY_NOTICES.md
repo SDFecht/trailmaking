@@ -29,7 +29,7 @@ The upstream README attributes the algorithm to Thomas Auer and Martin Held's *H
 
 The AdaPsyd Trail Making test software was created by **Fecht Szilárd Dávid**, [fecht@inf.elte.hu](mailto:fecht@inf.elte.hu). The third-party components credited above retain their respective authorship and licenses.
 
-The test implementation and runtime helpers originate from the AdaPsyd project. The test's own source code and documentation are released under the [MIT License](LICENSE.md), with the required copyright notice **Copyright (c) 2026 Fecht Szilárd Dávid <fecht@inf.elte.hu>**. Preserve that notice and the license text when copying or redistributing the software or substantial portions of it.
+The test implementation and runtime helpers originate from the AdaPsyd project. The test's own source code and documentation are released under the [MIT License](LICENSE), with the required copyright notice **Copyright (c) 2026 Fecht Szilárd Dávid <fecht@inf.elte.hu>**. Preserve that notice and the license text when copying or redistributing the software or substantial portions of it.
 
 The package contains no image, video or audio recordings. Error feedback is generated programmatically using Web Audio. No application database, application credentials or participant datasets are part of this package.
 
@@ -62,6 +62,6 @@ Az eredeti README Thomas Auer és Martin Held *Heuristics for the Generation of 
 
 Az AdaPsyd Trail Making tesztprogram készítője **Fecht Szilárd Dávid**, [fecht@inf.elte.hu](mailto:fecht@inf.elte.hu). A fent megjelölt külső összetevők saját szerzői megjelölése és licence megmarad.
 
-A teszt megvalósítása és futtatási segédfüggvényei az AdaPsyd projektből származnak. A teszt saját forráskódja és dokumentációja [MIT-licenc](LICENSE.md) alatt érhető el, az alábbi kötelező szerzői jogi megjelöléssel: **Copyright (c) 2026 Fecht Szilárd Dávid <fecht@inf.elte.hu>**. A szoftver vagy lényegi részei másolásakor és továbbadásakor ezt a közleményt és a licencszöveget meg kell őrizni.
+A teszt megvalósítása és futtatási segédfüggvényei az AdaPsyd projektből származnak. A teszt saját forráskódja és dokumentációja [MIT-licenc](LICENSE) alatt érhető el, az alábbi kötelező szerzői jogi megjelöléssel: **Copyright (c) 2026 Fecht Szilárd Dávid <fecht@inf.elte.hu>**. A szoftver vagy lényegi részei másolásakor és továbbadásakor ezt a közleményt és a licencszöveget meg kell őrizni.
 
 A csomag nem tartalmaz kép-, videó- vagy hangfelvételeket. A hibajelzést a program Web Audio segítségével állítja elő. Alkalmazás-adatbázis, alkalmazás-hitelesítési adatok és résztvevői adatkészletek nem részei a csomagnak.

@@ -82,9 +82,49 @@ The bundled Phaser distribution is MIT-licensed; its license is included at [ven
 
 ### License and required attribution
 
-The test's own source code and documentation are released under the [MIT License](LICENSE.md). Use, modification and redistribution, including commercial use, are permitted provided that the copyright notice and license text are preserved in copies or substantial portions of the software.
+The test's own source code and documentation are released under the [MIT License](LICENSE). Use, modification and redistribution, including commercial use, are permitted provided that the copyright notice and license text are preserved in copies or substantial portions of the software.
 
-**Required author credit: Fecht Szilárd Dávid — fecht@inf.elte.hu.** Preserve the copyright headers in the source and include `LICENSE.md` when redistributing the software. The separately credited Phaser and Random-Irregular-Polygon components retain their own authorship and MIT license notices.
+**Required author credit: Fecht Szilárd Dávid — fecht@inf.elte.hu.** Preserve the copyright headers in the source and include `LICENSE` when redistributing the software. The separately credited Phaser and Random-Irregular-Polygon components retain their own authorship and MIT license notices.
+
+### Cite this software
+
+For articles or other research outputs using this test, copy the following entry into your project's `.bib` file, for example `references.bib`. The same entry is available as [CITATION.bib](CITATION.bib).
+
+```bibtex
+@misc{fecht2026trailmaking,
+  author       = {Fecht, Szil{\'a}rd D{\'a}vid},
+  title        = {{Trail Making -- AdaPsyd standalone}},
+  year         = {2026},
+  howpublished = {\url{https://github.com/SDFecht/trailmaking}},
+  note         = {Computer software, version 1.0.0}
+}
+```
+
+Cite it in the text with:
+
+```latex
+\cite{fecht2026trailmaking}
+```
+
+If your document already has a bibliography setup, use its existing style and configuration. For a basic LaTeX + BibTeX setup, load the URL package in the preamble:
+
+```latex
+\usepackage{url}
+```
+
+Then place the following before `\end{document}`:
+
+```latex
+\bibliographystyle{plain}
+\bibliography{references}
+```
+
+Use `\bibliography{CITATION}` if you use the included file directly rather than copying the entry into `references.bib`. Run LaTeX, BibTeX, LaTeX and LaTeX again, or use your editor's automatic bibliography build.
+
+For a document using `biblatex`, load the file with `\addbibresource{references.bib}` in the preamble and place `\printbibliography` where the bibliography should appear; `\cite{fecht2026trailmaking}` is the same.
+
+This entry cites the test software by Fecht Szilárd Dávid. The polygon generator's separate attribution remains in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md#english).
+
 
 ---
 
@@ -168,6 +208,45 @@ A mellékelt Phaser futtatókörnyezet MIT-licencű; licence a [vendor/phaser/LI
 
 ### Licenc és kötelező szerzői megjelölés
 
-A teszt saját forráskódja és dokumentációja [MIT-licenc](LICENSE.md) alatt érhető el. Használata, módosítása és továbbadása kereskedelmi célra is engedélyezett, ha a szerzői jogi közleményt és a licencszöveget megőrzik a másolatokban vagy a szoftver lényegi részeinek átvételekor.
+A teszt saját forráskódja és dokumentációja [MIT-licenc](LICENSE) alatt érhető el. Használata, módosítása és továbbadása kereskedelmi célra is engedélyezett, ha a szerzői jogi közleményt és a licencszöveget megőrzik a másolatokban vagy a szoftver lényegi részeinek átvételekor.
 
-**Kötelező szerzői megjelölés: Fecht Szilárd Dávid — fecht@inf.elte.hu.** Őrizd meg a forrás szerzői jogi fejléceit, és továbbadáskor mellékeld a `LICENSE.md` fájlt. A külön megjelölt Phaser és Random-Irregular-Polygon összetevők saját szerzői megjelölése és MIT-licencközleménye szintén megőrzendő.
+**Kötelező szerzői megjelölés: Fecht Szilárd Dávid — fecht@inf.elte.hu.** Őrizd meg a forrás szerzői jogi fejléceit, és továbbadáskor mellékeld a `LICENSE` fájlt. A külön megjelölt Phaser és Random-Irregular-Polygon összetevők saját szerzői megjelölése és MIT-licencközleménye szintén megőrzendő.
+
+### Hivatkozás a szoftverre
+
+A tesztet használó cikkben vagy más kutatási közleményben másold az alábbi bejegyzést a projekt `.bib` fájljába, például a `references.bib` fájlba. Ugyanez a bejegyzés külön fájlként is elérhető: [CITATION.bib](CITATION.bib).
+
+```bibtex
+@misc{fecht2026trailmaking,
+  author       = {Fecht, Szil{\'a}rd D{\'a}vid},
+  title        = {{Trail Making -- AdaPsyd standalone}},
+  year         = {2026},
+  howpublished = {\url{https://github.com/SDFecht/trailmaking}},
+  note         = {Computer software, version 1.0.0}
+}
+```
+
+A szövegben így hivatkozz rá:
+
+```latex
+\cite{fecht2026trailmaking}
+```
+
+Ha a dokumentum bibliográfiája már be van állítva, használd a meglévő stílust és konfigurációt. Egy egyszerű LaTeX + BibTeX beállításhoz töltsd be az URL-csomagot a preambulumban:
+
+```latex
+\usepackage{url}
+```
+
+Ezután a `\end{document}` elé kerüljön:
+
+```latex
+\bibliographystyle{plain}
+\bibliography{references}
+```
+
+Ha a mellékelt fájlt közvetlenül használod, és nem másolod a bejegyzést a `references.bib` fájlba, akkor `\bibliography{CITATION}` szükséges. A fordítás sorrendje: LaTeX, BibTeX, LaTeX, majd ismét LaTeX; vagy használd a szerkesztő automatikus bibliográfia-fordítását.
+
+Ha a dokumentum `biblatex` csomagot használ, a preambulumban a `\addbibresource{references.bib}` tölti be a fájlt, a bibliográfia helyén pedig a `\printbibliography` jeleníti meg a hivatkozásjegyzéket; a szövegbeli parancs ugyanúgy `\cite{fecht2026trailmaking}`.
+
+Ez a bejegyzés Fecht Szilárd Dávid tesztprogramjára hivatkozik. Az alakzatgenerátor külön szerzői megjelölése a [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md#magyar) fájlban marad meg.

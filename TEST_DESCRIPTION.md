@@ -111,11 +111,13 @@ Run `npm start` inside the folder, then open `http://localhost:8080`. This requi
 
 The AdaPsyd Trail Making test software was created by **Fecht Szilárd Dávid**, contact [fecht@inf.elte.hu](mailto:fecht@inf.elte.hu). The standalone package derives from the AdaPsyd implementation and includes a detailed field-event log and CSV export.
 
-The test's own source code and documentation may be freely used, modified and redistributed, including commercially, under the [MIT License](LICENSE.md). **The author credit — Fecht Szilárd Dávid, fecht@inf.elte.hu — and license text must be retained in copies or substantial portions of the software.** Preserve the copyright headers in the source files as well.
+The test's own source code and documentation may be freely used, modified and redistributed, including commercially, under the [MIT License](LICENSE). **The author credit — Fecht Szilárd Dávid, fecht@inf.elte.hu — and license text must be retained in copies or substantial portions of the software.** Preserve the copyright headers in the source files as well.
 
 Phaser and Random-Irregular-Polygon are included with separate author credits and their own MIT licenses. Their original notices and license texts must also be retained. Detailed attribution for external components is provided in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md#english).
 
-Suggested short software citation: **Fecht Szilárd Dávid. Trail Making — AdaPsyd standalone. Version 1.0.0. Software.** The final public repository URL, release year and an optional DOI can be added upon publication.
+Software citation: **Fecht Szilárd Dávid (2026). Trail Making — AdaPsyd standalone. Version 1.0.0. Computer software.** Repository: [SDFecht/trailmaking](https://github.com/SDFecht/trailmaking).
+
+Copy the [CITATION.bib](CITATION.bib) entry into your article's `.bib` file and cite it with `\cite{fecht2026trailmaking}`. The complete BibTeX entry and instructions for LaTeX, BibTeX and `biblatex` are provided in [README.md — Cite this software](README.md#cite-this-software).
 
 ---
 
@@ -228,8 +230,10 @@ A mappában futtatott `npm start` után a program a `http://localhost:8080` cím
 
 Az AdaPsyd Trail Making tesztprogram készítője **Fecht Szilárd Dávid**, elérhetősége [fecht@inf.elte.hu](mailto:fecht@inf.elte.hu). Az önálló csomag az AdaPsyd megvalósításából készült, részletes pályaesemény-naplóval és CSV-exporttal.
 
-A teszt saját forráskódja és dokumentációja [MIT-licenc](LICENSE.md) alatt szabadon használható, módosítható és továbbadható, kereskedelmi célra is. **A szerzői megjelölést – Fecht Szilárd Dávid, fecht@inf.elte.hu – és a licencszöveget kötelező megtartani a másolatokban vagy a szoftver lényegi részeinek átvételekor.** A forrásfájlok szerzői fejléceit is meg kell őrizni.
+A teszt saját forráskódja és dokumentációja [MIT-licenc](LICENSE) alatt szabadon használható, módosítható és továbbadható, kereskedelmi célra is. **A szerzői megjelölést – Fecht Szilárd Dávid, fecht@inf.elte.hu – és a licencszöveget kötelező megtartani a másolatokban vagy a szoftver lényegi részeinek átvételekor.** A forrásfájlok szerzői fejléceit is meg kell őrizni.
 
 A Phaser és a Random-Irregular-Polygon külön szerzői megjelöléssel és saját MIT-licenccel szerepelnek a csomagban. Ezek eredeti megjelöléseit és licencszövegeit szintén meg kell tartani. A külső összetevők részletes forrásmegjelölése: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md#magyar).
 
-Javasolt rövid szoftverhivatkozás: **Fecht Szilárd Dávid. Trail Making – AdaPsyd standalone. 1.0.0 verzió. Szoftver.** A nyilvános repository végleges címe, a kiadás éve és egy esetleges DOI a közzétételkor egészítheti ki a hivatkozást.
+Szoftverhivatkozás: **Fecht Szilárd Dávid (2026). Trail Making – AdaPsyd standalone. 1.0.0 verzió. Szoftver.** Repository: [SDFecht/trailmaking](https://github.com/SDFecht/trailmaking).
+
+Másold a [CITATION.bib](CITATION.bib) bejegyzését a cikk `.bib` fájljába, és a szövegben a `\cite{fecht2026trailmaking}` paranccsal hivatkozz rá. A teljes BibTeX-bejegyzés és a LaTeX-, BibTeX- és `biblatex`-használati útmutató a [README.md — Hivatkozás a szoftverre](README.md#hivatkozás-a-szoftverre) részben található.
